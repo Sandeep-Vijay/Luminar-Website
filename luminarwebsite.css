@@ -1,0 +1,136 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Roboto&family=Ubuntu:wght@500&display=swap');
+
+.nav-link{
+    font-size: large;
+    margin-left: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.navbar-nav {
+    margin-left: 500px;
+}
+.lumi{
+height: 80px;
+width: 280px;
+margin-left: 40px;
+}
+
+.nav-link:hover{
+    color: blueviolet;
+}
+#topnav{
+    background-color: blueviolet;
+    height: 70px;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+.headslide1{
+    font-size: 50%;
+}
+button{
+    background-color: rgb(84, 33, 133);
+    border-radius: 40px;
+    color: white;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 70px;
+    margin-top: 20px;
+    width: 20%;
+    height: 70px;
+    border: none;
+}
+.carousel-inner{
+    position: relative;
+    max-height: 800px;
+}
+.carousel-caption{
+    position: absolute;
+    top: -20%;
+    left: -10%;
+    text-align: left;
+    padding: 300px;
+    
+}
+.carohead{
+    font-size: 1.7cm;
+    font-weight: bold;
+}
+.carop{
+    margin-top: 40px;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+.carob{
+    margin-left: 0;
+    width: 30%;
+    height: 80px;
+}
+.carousel-control-prev{
+    position: absolute;
+    top: 50%;
+    left: -8%;
+}
+.carousel-control-next{
+    position: absolute;
+    top: 50%;
+    right: -4%;
+}
+.submit{
+    border-radius: 0px;
+    margin-left: auto;
+    width: 150px;
+    height: 50px;
+    padding-top: 14px;   
+
+}
+input{
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+
+    border-bottom: 1px solid #70707038;
+}
+textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    border-bottom: 1px solid #70707038;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.modaltxt{
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 1px solid #70707038;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(90, 89, 89);
+    
+}
+.btn-close{
+    margin-left: 650px;
+}
+.modal-dialog {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: larger;
+}
+.exampleModalLabel{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ */
