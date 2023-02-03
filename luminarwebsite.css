@@ -10,7 +10,7 @@
 }
 
 .navbar-nav {
-    margin-left: 450px;
+    margin-left: auto;
 }
 .lumi{
 height: 80px;
@@ -21,10 +21,7 @@ margin-left: 40px;
 .nav-link:hover{
     color: blueviolet;
 }
-#topnav{
-    background-color: blueviolet;
-    height: 70px;
-}
+
 p{
     font-family: 'Ubuntu', sans-serif;
     
@@ -64,7 +61,7 @@ button{
     font-weight: bold;
 }
 .carop{
-    margin-top: 40px;
+    margin-top: 10px;
     font-size: 1.3em;
     letter-spacing: 2px;
     line-height: 30px;
@@ -129,7 +126,94 @@ textarea{
     font-size: xx-large;
     font-weight: 900;
 }
+#ourcourses{
+    transition: .5s;
+}
 
+#ourcourses .second-col{
+    
+    padding: 20px 20px;
+    
+}
 /* font-family: 'Roboto', sans-serif;
 font-family: 'Ubuntu', sans-serif;
  */
+ #ourcourses:hover{
+      box-shadow: -10px 30px 40px 2px rgba(80, 80, 80, 0.172);
+      transform: scale(1.008);
+ }
+ #card1{
+transition: .5s;
+ }
+  #card2{
+transition: .5s;
+  }
+   #card3{
+transition: .5s;
+   }
+    #card1:hover{
+         box-shadow: -10px 20px 40px 2px rgba(80, 80, 80, 0.172);
+      transform: scale(1.008);
+    }
+    #card2:hover{
+         box-shadow: -10px 20px 40px 2px rgba(80, 80, 80, 0.172);
+      transform: scale(1.008);
+    }
+    #card3:hover{
+         box-shadow: -10px 20px 40px 2px rgba(80, 80, 80, 0.172);
+      transform: scale(1.008);
+    }
+
+    #lastbutton{
+        width: 7cm;
+        color: rgb(80, 26, 130); 
+        background-color: #f5f5f5; border:solid 3px rgb(80, 26, 130);
+    }
+    #lastbutton:hover{
+        background-color:  rgb(80, 26, 130);
+        color: white;
+    }
+    @media(max-width:500px){
+        #lastbutton{
+            margin-left: 0px;
+
+        } 
+        #toggler{
+            margin-left: 310px;
+        }
+        #btnclick{
+            margin-left: 2px;
+        }
+        #prev{
+            margin-top: -150px;
+            margin-left: 15px;
+        }
+        #nxt{
+            margin-top: -150px;
+        }
+    }
+@media(max-width:500px){
+    .carohead{
+        margin-top: -250px;
+        font-size: small;
+        margin-left: -200px;
+        
+        
+    }
+    .carop{
+        margin-top: 0px;
+        margin-left: -200px;
+        font-size: xx-small;
+        line-height: 20px;
+       
+        letter-spacing: normal;
+        text-align: left;}
+        
+    .carob{
+        display: none;
+    
+        
+    }
+    
+}
+   
